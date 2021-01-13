@@ -1,0 +1,29 @@
+{
+    "name": "pet-api",
+    "version": "0.0.1",
+    "description": "Wipro Coding Test",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest -c jest.config.js --coverage"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/khotdarshan/pet-api.git"
+    },
+    "author": "Darshan Khot",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/khotdarshan/pet-api/issues"
+    },
+    "homepage": "https://github.com/khotdarshan/pet-api#readme",
+    "devDependencies": {
+        "jest": "^26.6.3",
+        "mongodb-memory-server": "^6.6.0"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "joi": "^17.3.0",
+        "mongoose": "^5.9.14"
+    }
+}
